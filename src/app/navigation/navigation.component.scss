@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  align-items: flex-start;
+  margin: 30px auto;
+  .brand {
+    display: inline-flex;
+    width: 15%;
+    img {
+      width: 85px;
+      max-width: 100%;
+    }
+  }
+
+  .nav-bar {
+    display: inline-flex;
+    width: 85%;
+    ul {
+      margin: 0;
+      padding-left: 0;
+      width: 100%;
+      li {
+        background-color: #fff;
+        display: inline-block;
+        text-align: center;
+        width: 20%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        a {
+          text-align: center;
+          text-decoration: none;
+          color: #383838;
+          .fa {
+            display: block;
+            font-size: 1.5rem;
+          }
+        }
+        &.active {
+          background-color: #193948;
+          a {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
