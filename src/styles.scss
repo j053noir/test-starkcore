@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@import './assets/scss/variables';
+@import './assets/scss/grid';
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  *,
+  ::after,
+  ::before {
+    box-sizing: border-box;
+  }
+}
+
+body {
+  background-color: #e6e6e6;
+}
