@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { SidemenuComponent } from './home/sidemenu/sidemenu.component';
+import { MainComponent } from './home/main/main.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { SidemenuComponent } from './home/sidemenu/sidemenu.component';
     HomeComponent,
     NavigationComponent,
     SidemenuComponent,
+    MainComponent,
   ],
   imports: [
     BrowserModule,
