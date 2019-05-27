@@ -2,19 +2,16 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import {
-  MatFormFieldModule,
-  MatInputModule,
+  MatSlideToggleModule,
 } from '@angular/material';
 
 @NgModule({
   imports: [
-    MatFormFieldModule,
-    MatInputModule,
+    MatSlideToggleModule,
   ],
 
   exports: [
-    MatFormFieldModule,
-    MatInputModule,
+    MatSlideToggleModule,
   ],
 })
 export class MaterialModule {}

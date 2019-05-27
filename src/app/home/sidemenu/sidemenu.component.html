@@ -1,18 +1,26 @@
 <div class="wrapper">
-  <mat-form-field class="bb-gray">
-    <input matInput type="text" id="filter" />
-    <mat-label
-      ><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Smart
-      Filters</mat-label
-    >
-  </mat-form-field>
-  <div class="group">
-    <i class="i fa fa-certificate fa-3x" aria-hidden="true"></i>
+  <h2 class="bb-gray">
+    <i class="fa fa-lightbulb-o" aria-hidden="true"></i> Smart Filters
+  </h2>
+  <div class="sliders bb-gray">
+    <div class="group">
+      <i class="fa fa-certificate" aria-hidden="true"></i>
+      <mat-slide-toggle></mat-slide-toggle>
+    </div>
+    <div class="group">
+      <i class="fa fa-calendar" aria-hidden="true"></i>
+      <mat-slide-toggle></mat-slide-toggle>
+    </div>
+    <div class="group">
+      <i class="fa fa-heart" aria-hidden="true"></i>
+      <mat-slide-toggle></mat-slide-toggle>
+    </div>
   </div>
-  <div class="group">
-    <i class="i fa fa-calendar fa-3x" aria-hidden="true"></i>
+  <div class="search-box">
+    <label for="searchbox">Status</label>
+    <input type="text" placeholder="&#xF002; Search" value="" />
   </div>
-  <div class="group bb-gray">
-    <i class="i fa fa-heart fa-3x" aria-hidden="true"></i>
-  </div>
+  <button type="button" class="btn-delivered">
+    DELIVERED
+  </button>
 </div>
