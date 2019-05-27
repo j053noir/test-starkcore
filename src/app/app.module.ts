@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { SidemenuComponent } from './home/sidemenu/sidemenu.component';
 import { MainComponent } from './home/main/main.component';
+import { DeliveryItemComponent } from './home/main/delivery-item/delivery-item.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { MainComponent } from './home/main/main.component';
     NavigationComponent,
     SidemenuComponent,
     MainComponent,
+    DeliveryItemComponent,
   ],
   imports: [
     BrowserModule,
