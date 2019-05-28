@@ -1,0 +1,13 @@
+$grid-columns: 12 !default;
+
+$grid-gutter-width: 30px !default;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1080px,
+  xl: 1440px,
+) !default;
+
+$fa-font-path: '~font-awesome/fonts';
