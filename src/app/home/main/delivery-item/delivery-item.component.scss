@@ -13,6 +13,11 @@
   color: #b8b8b8;
   max-width: 65px;
   text-align: center;
+  small {
+    position: relative;
+    bottom: 1ex;
+    font-size: 80%;
+  }
 }
 
 .address {
